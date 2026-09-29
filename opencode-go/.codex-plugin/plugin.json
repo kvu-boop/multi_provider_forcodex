@@ -1,0 +1,21 @@
+{
+  "name": "opencode-go",
+  "version": "0.1.0",
+  "description": "Call selected OpenCode Go coding models from Codex.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OpenCode Go",
+    "shortDescription": "Call OpenCode Go models",
+    "longDescription": "Ask DeepSeek V4.1 Flash or Space Bunny Free from a local Codex MCP tool. Uses your own OpenCode Go API key.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": "Ask OpenCode Go to review this code."
+  },
+  "mcpServers": "./.mcp.json"
+}

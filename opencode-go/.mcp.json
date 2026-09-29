@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "opencode-go": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["./server/index.mjs"],
+      "cwd": "."
+    }
+  }
+}
